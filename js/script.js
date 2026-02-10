@@ -10,3 +10,10 @@ function openTab(tabId) {
   document.getElementById(tabId).classList.add('active');
   event.target.classList.add('active');
 }
+function openCallbackModal() {
+    document.getElementById("callbackModal").style.display = "flex";
+}
+
+function closeCallbackModal() {
+    document.getElementById("callbackModal").style.display = "none";
+}
