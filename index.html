@@ -1,556 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>SWE-AYUSH Therapy Centre</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- <link rel="stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
+<title>SweAyush Therapy Centre</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
+
 </head>
 
 <body>
 
-<!-- TOP UTILITY BAR
-<div class="top-bar">
-  <span>📞 Helpline: +91 90030 87512</span>
-  <div>
-    <span>ENG</span>
-    <span class="dot">•</span>
-    <span>Book Appointment</span>
-  </div>
-</div> -->
-
-<!-- MAIN NAVBAR -->
+<!-- NAVBAR -->
 <header class="navbar">
   <div class="nav-left">
     <img src="images/logo.png">
-
     <strong>SWE-AYUSH</strong>
   </div>
 
   <nav class="nav-menu">
     <a href="#home">Home</a>
+    <a href="#about">About</a>
     <a href="#doctor">Doctors</a>
-    <a href="#services">Treatments</a>
-
-    <a href="#locations">Locations</a>
-   <!-- <a class="cta">Book Appointment</a> -->
-<a href="#appointment" class="cta">Book Appointment</a>
-
+    <a href="#treatments">Treatments</a>
+    <a href="#locations" class="cta">Book Appointment</a>
   </nav>
 </header>
-
-<!-- HERO -->
-<section class="hero" id="home">
-  <div class="hero-content">
-    <h1>Personalized Ayurvedic Healing<br>Rooted in Ancient Science</h1>
-    <p>Holistic treatments for body, mind and spirit — guided by expert Ayurvedic doctors.</p>
-
-    <div class="hero-actions">
-      <!-- <a class="primary">Book Appointment</a> -->
-      <a href="#locations" class="secondary">Find Centre</a>
-
-    </div>
-  </div>
-</section>
-
-<!-- QUICK ACTION CARDS
-<section class="quick-actions">
-  <div class="card">🗓 Book Appointment</div>
-  <div class="card">📍 Find Centre</div>
-  <div class="card">🌿 Treatments</div>
-  <div class="card">👩‍⚕️ Consult Doctor</div>
-</section> -->
-
-<!-- ABOUT SECTION -->
-<section class="section about" id="about">
-  <div class="about-container">
-
-    <div class="about-text">
-      <h2>About SWE-AYUSH</h2>
-      <p class="about-lead">
-        Personalized healing rooted in ancient Ayurvedic wisdom.
-      </p>
-
-      <p>
-        SWE-AYUSH Therapy Centre is dedicated to restoring balance between
-        body, mind, and spirit through authentic Ayurvedic treatments.
-        Our approach combines time-tested therapies with personalized
-        consultations to ensure holistic wellness.
-      </p>
-
-      <p>
-        From stress relief and rejuvenation to pain management, skin care,
-        and detoxification, every treatment at SWE-AYUSH is guided by
-        classical Ayurvedic principles and expert medical care.
-      </p>
-      <p>
-        Heal naturally. Live balanced. Experience Ayurveda at SweAyush. 
-
-      </p>
-    </div>
-
-    <div class="about-points">
-      <ul>
-        <li>✔ Authentic Ayurvedic Therapies</li>
-        <li>✔ Personalized Treatment Plans</li>
-        <li>✔ Experienced Ayurvedic Doctors</li>
-        <li>✔ Holistic & Natural Healing</li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
-<!-- WHY CHOOSE SWE-AYUSH -->
-<section class="section why-choose" id="why-choose">
-  <h2>Why Choose SWE-AYUSH</h2>
-  <p class="why-subtitle">
-    Trusted Ayurvedic care designed around your well-being.
-  </p>
-
-  <div class="why-grid">
-
-    <div class="why-card">
-      <h3>Authentic Ayurveda</h3>
-      <p>
-        Treatments rooted in classical Ayurvedic principles,
-        using time-tested methods and natural therapies.
-      </p>
-    </div>
-
-    <div class="why-card">
-      <h3>Personalized Care</h3>
-      <p>
-        Every patient receives an individualized treatment
-        plan based on body constitution and health needs.
-      </p>
-    </div>
-
-    <div class="why-card">
-      <h3>Expert Doctors</h3>
-      <p>
-        Experienced Ayurvedic consultants guiding every
-        therapy with medical precision and care.
-      </p>
-    </div>
-
-    <div class="why-card">
-      <h3>Holistic Healing</h3>
-      <p>
-        Focus on healing the root cause — balancing body,
-        mind, and lifestyle for long-term wellness.
-      </p>
-    </div>
-
-    <div class="why-card">
-      <h3>Safe & Natural</h3>
-      <p>
-        Non-invasive, chemical-free treatments that support
-        natural healing and recovery.
-      </p>
-    </div>
-
-    <div class="why-card highlight">
-      <h3>Patient-Centric Approach</h3>
-      <p>
-        Compassionate care, comfortable environment,
-        and complete attention to patient well-being.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<!-- DOCTOR PROFILE -->
-<section class="section doctor-section" id="doctor">
-  <h2>Our Senior Consultant</h2>
-  <p class="doctor-subtitle">
-    Expert guidance rooted in authentic Ayurvedic science.
-  </p>
-
-  <div class="doctor-card">
-    <div class="doctor-info">
-      <h3>Dr. Swetha Gopal</h3>
-      <span class="doctor-qualifications">BAMS, SMP</span>
-
-      <p class="doctor-description">
-        Dr. Swetha Gopal is an experienced Ayurvedic physician
-        specializing in holistic healing, Panchakarma therapies,
-        lifestyle disorders, and preventive healthcare.
-        Her approach focuses on treating the root cause while
-        ensuring patient comfort and long-term wellness.
-      </p>
-
-      <div class="doctor-actions">
-        <a href="#appointment" class="primary">Book Consultation</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- TREATMENTS SECTION
-<section class="section treatments" id="treatments">
-  <h2>Our Treatments</h2>
-  <p class="treatments-subtitle">
-    Comprehensive Ayurvedic therapies designed for holistic healing.
-  </p>
-
-  <div class="therapy-circles">
-
-    <div class="circle">
-      <span>Abhyangam</span>
-      <small>Rejuvenation Therapy</small>
-    </div>
-
-    <div class="circle">
-      <span>Shirodhara</span>
-      <small>Stress & Sleep Care</small>
-    </div>
-
-    <div class="circle">
-      <span>Panchakarma</span>
-      <small>Detox Therapy</small>
-    </div>
-
-    <div class="circle">
-      <span>Podikizhi</span>
-      <small>Pain Management</small>
-    </div>
-
-  </div>
-
-  <div class="therapy-circles second-row">
-
-    <div class="circle">
-      <span>Navarakizhi</span>
-      <small>Joint & Skin Care</small>
-    </div>
-
-    <div class="circle">
-      <span>Nasyam</span>
-      <small>ENT & Migraine</small>
-    </div>
-
-    <div class="circle">
-      <span>Udwarthanam</span>
-      <small>Weight Management</small>
-    </div>
-
-  </div>
-</section> -->
-
-<!-- MODERN TREATMENTS UI -->
-<section class="section modern-treatments" id="treatments">
-  <h2>Treatments & Therapies</h2>
-  <p class="treatments-subtitle">
-    Expert-led Ayurvedic treatments designed for complete wellness.
-  </p>
-
-  <!-- TABS -->
-  <div class="treatment-tabs">
-    <button class="tab active" onclick="openTab('core')">Core Therapies</button>
-    <button class="tab" onclick="openTab('post')">Post-Consultation</button>
-    <button class="tab" onclick="openTab('skin')">Skin & Hair</button>
-    <button class="tab" onclick="openTab('weight')">Weight Loss</button>
-    <button class="tab" onclick="openTab('packages')">Special Packages</button>
-  </div>
-
-  <!-- TAB CONTENT -->
-
- <!-- CORE TREATMENTS -->
-<!-- CORE TREATMENTS -->
- <section class="section modern-treatments" id="services">
-
-<div class="tab-content active" id="core">
-  <div class="treatment-grid">
-
-    <div class="treatment-card">
-      <img src="images/treatments/abhyangnam.jpg" alt="Abhyangnam">
-      <h4>Abhyangnam</h4>
-      <small>Rejuvenation full body massage</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/pizhichil.jpg" alt="Pizhichil">
-      <h4>Pizhichil</h4>
-      <small>Arthritis, paralysis, sciatica</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/podikizhi.jpg" alt="Podikizhi">
-      <h4>Podikizhi</h4>
-      <small>Inflammation & joint pain management</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/elakizhi.jpg" alt="Elakizhi">
-      <h4>Elakizhi</h4>
-      <small>Joint & muscle pain relief</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/dhanyamlakizhi.jpg" alt="Dhanyamlakizhi">
-      <h4>Dhanyamlakizhi</h4>
-      <small>Severe pain, swelling, rheumatoid arthritis</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/navarakizhi.jpg" alt="Navarakizhi">
-      <h4>Navarakizhi</h4>
-      <small>Joint pain, BP, skin & muscular disorders</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/induppukizhi.jpg" alt="Induppukizhi">
-      <h4>Induppukizhi</h4>
-      <small>Localized pain management</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/shirodhara.jpg" alt="Shirodhara">
-      <h4>Shirodhara</h4>
-      <small>ENT, sleep disorders, BP & headaches</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/dhanyamala.jpg" alt="Dhanyamala Dhara">
-      <h4>Dhanyamala Dhara</h4>
-      <small>Inflammatory & vata disorders</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/ksheeradhara.jpg" alt="Ksheeradhara">
-      <h4>Ksheeradhara</h4>
-      <small>Anxiety, depression & insomnia</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/thakradhara.jpg" alt="Thakradhara">
-      <h4>Thakradhara</h4>
-      <small>Psoriasis & arthritis care</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/nethradhara.jpg" alt="Nethradhara">
-      <h4>Nethradhara</h4>
-      <small>All types of eye problems</small>
-    </div>
-
-    <div class="treatment-card">
-      <img src="images/treatments/nethratharpanam.jpg" alt="Nethratharpanam">
-      <h4>Nethratharpanam</h4>
-      <small>Eye strain & optic nerve strengthening</small>
-    </div>
-
-  </div>
-</div>
-
-
-    </div>
-  </div>
-
-  <div class="tab-content" id="post">
-    <div class="treatment-grid">
-      <div class="treatment-card">Kativasti<br><small>Back Pain</small></div>
-      <div class="treatment-card">Januvasti<br><small>Knee Pain</small></div>
-      <div class="treatment-card">Greevavasti<br><small>Cervical Care</small></div>
-      <div class="treatment-card">Nasyam<br><small>Migraine & Sinus</small></div>
-      <div class="treatment-card">Lepanam<br><small>Inflammation</small></div>
-    </div>
-  </div>
-
-  <div class="tab-content" id="skin">
-    <div class="treatment-grid">
-      <div class="treatment-card">Ayurvedic Facial</div>
-      <div class="treatment-card">Tan Removal</div>
-      <div class="treatment-card">Navara Skin Polish</div>
-      <div class="treatment-card">Hair Care Therapy</div>
-      <div class="treatment-card">Head Pack</div>
-    </div>
-  </div>
-
-  <div class="tab-content" id="weight">
-    <div class="treatment-grid">
-      <div class="treatment-card">Udwarthanam</div>
-      <div class="treatment-card">Dhanyaamla Dhara</div>
-      <div class="treatment-card">Mathravasti</div>
-      <div class="treatment-card">Steam Therapy</div>
-    </div>
-  </div>
-
-  <div class="tab-content" id="packages">
-    <div class="treatment-grid">
-      <div class="treatment-card highlight">
-        Stress Relief Package
-      </div>
-      <div class="treatment-card highlight">
-        Aches & Pain Relief
-      </div>
-      <div class="treatment-card highlight">
-        Skin & Hair / Bridal
-      </div>
-    </div>
-  </div>
-
-</section>
-
-
-<!-- PATIENT BENEFITS -->
-<section class="section benefits" id="benefits">
-  <h2>Patient Benefits & Outcomes</h2>
-  <p class="benefits-subtitle">
-    Healing that focuses on long-term wellness, not just temporary relief.
-  </p>
-
-  <div class="benefits-grid">
-
-    <div class="benefit-card">
-      <h3>Root-Cause Healing</h3>
-      <p>
-        Treatments designed to address the underlying cause
-        of health issues, not just the symptoms.
-      </p>
-    </div>
-
-    <div class="benefit-card">
-      <h3>Improved Quality of Life</h3>
-      <p>
-        Enhanced energy levels, better sleep, reduced stress,
-        and improved overall well-being.
-      </p>
-    </div>
-
-    <div class="benefit-card">
-      <h3>Safe & Natural Care</h3>
-      <p>
-        Chemical-free therapies that support the body’s
-        natural healing processes.
-      </p>
-    </div>
-
-    <div class="benefit-card">
-      <h3>Personalized Treatment</h3>
-      <p>
-        Therapies tailored to individual body constitution
-        and specific health concerns.
-      </p>
-    </div>
-
-    <div class="benefit-card">
-      <h3>Preventive Wellness</h3>
-      <p>
-        Focus on maintaining balance and preventing
-        future health complications.
-      </p>
-    </div>
-
-    <div class="benefit-card">
-      <h3>Holistic Balance</h3>
-      <p>
-        Harmonizing body, mind, and lifestyle for
-        sustainable long-term health.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-<!-- LOCATIONS SECTION -->
-<section class="section locations" id="locations">
-
-  <h2>Our Locations</h2>
-  <p class="locations-subtitle">
-    Easily accessible therapy centres across Chennai.
-  </p>
-
-  <div class="locations-grid">
-
-    <div class="location-card">
-      <h3>Ashok Nagar</h3>
-      <p>
-        New No.103 (Old No.57), Ashwin, 4th Avenue,<br>
-        Ashok Nagar, Chennai – 600083
-      </p>
-      <p class="location-phone">📞 044-4232 8897</p>
-    </div>
-
-    <div class="location-card">
-      <h3>Anna Nagar</h3>
-      <p>
-        J-35, 7th Street, Anna Nagar East,<br>
-        Chennai – 600102
-      </p>
-      <p class="location-phone">📞 87544 63002</p>
-    </div>
-
-    <div class="location-card">
-      <h3>Ramapuram</h3>
-      <p>
-        Plot No.83, Rayala Nagar 4th Cross Street,<br>
-        Ramapuram, Chennai – 600078
-      </p>
-      <p class="location-phone">📞 044-4860 7512</p>
-    </div>
-
-    <div class="location-card">
-      <h3>Thiruvanmiyur</h3>
-      <p>
-        Plot No.314, 4th Main Road, Kamaraj Nagar,<br>
-        Chennai – 600041
-      </p>
-      <p class="location-phone">📞 89257 51116</p>
-    </div>
-
-    <div class="location-card">
-      <h3>Iyyappanthangal</h3>
-      <p>
-        Janakiram Nagar, Paraniputhur,<br>
-        Chennai – 600112
-      </p>
-      <p class="location-phone">📞 89258 46163</p>
-    </div>
-
-  </div>
-</section>
-
-<!-- APPOINTMENT CTA -->
- <section class="appointment-cta" id="appointment">
-
-<button onclick="openCallbackModal()">
-    Request Callback
-</button>
-
-
-
-  <div class="cta-container">
-
-    <h2>Begin Your Healing Journey Today</h2>
-    <p>
-      Consult our experienced Ayurvedic doctor and receive
-      personalized treatment designed for your well-being.
-    </p>
-
-    <div class="cta-actions">
-      <a href="tel:+919003087512" class="primary">Call to Book Appointment</a>
-      <a href="#" class="secondary">Request Callback</a>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-<!-- FOOTER -->
-<footer>
-  <p>© 2026 SWE-AYUSH Therapy Centre</p>
-</footer>
+<div class="hero-content container">
+
+<!-- SECTIONS LOAD HERE -->
+<div id="home"></div>
+<div id="about"></div>
+<div id="doctor"></div>
+<div id="treatments"></div>
+<div id="locations"></div>
+<div id="appointment"></div>
 
 <script src="js/script.js"></script>
+
+<script>
+loadSection("home", "sections/home.html");
+loadSection("about", "sections/about.html");
+loadSection("doctor", "sections/doctor.html");
+loadSection("treatments", "sections/treatments.html");
+loadSection("locations", "sections/locations.html");
+loadSection("appointment", "sections/appointment.html");
+
+function loadSection(id, file) {
+  fetch(file)
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById(id).innerHTML = data;
+    });
+}
+</script>
 
 </body>
 </html>
