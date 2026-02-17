@@ -20,3 +20,32 @@
   </div>
 
 </section>
+
+<!-- CALLBACK POPUP -->
+<!-- CALLBACK POPUP -->
+<div id="callbackModal" class="callback-modal">
+
+  <div class="callback-box">
+    <h3>Please Enter Your Details</h3>
+
+    <!-- BRANCH SELECT -->
+    <select id="cbBranch">
+      <option value="">Select Branch</option>
+      <option value="7604829771">Ashok Nagar</option>
+      <option value="9790738874">Ramapuram</option>
+      <option value="8754463002">Anna Nagar</option>
+      <option value="8925751116">Thiruvanmiyur</option>
+      <option value="8925846163">Iyyappanthangal</option>
+    </select>
+
+    <input type="text" id="cbName" placeholder="Enter Name">
+    <input type="tel" id="cbPhone" placeholder="Enter Mobile Number">
+
+    <button onclick="submitCallback()" class="primary">
+      REQUEST APPOINTMENT
+    </button>
+
+    <span class="close-modal" onclick="closeCallbackModal()">×</span>
+  </div>
+
+</div>
