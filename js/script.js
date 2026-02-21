@@ -40,7 +40,21 @@ function submitCallback() {
     alert("Please fill all details");
     return;
   }
+const container = document.querySelector(".water-drops");
 
+setInterval(() => {
+  if (!container) return;
+
+  const drop = document.createElement("span");
+  drop.className = "drop";
+
+  drop.style.left = Math.random() * 100 + "%";
+  drop.style.top = Math.random() * 100 + "%";
+
+  container.appendChild(drop);
+
+  setTimeout(() => drop.remove(), 1600);
+}, 900);
   const message =
     "New Appointment Request%0A" +
     "Branch: " + branchName + "%0A" +
@@ -54,4 +68,29 @@ function submitCallback() {
 
   closeCallbackModal();
 }
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.querySelector(".water-drops");
+  if (!container) return;
 
+  setInterval(() => {
+    const drop = document.createElement("span");
+    drop.className = "drop";
+    drop.style.left = Math.random() * 100 + "%";
+    drop.style.top = Math.random() * 100 + "%";
+    container.appendChild(drop);
+    setTimeout(() => drop.remove(), 1600);
+  }, 900);
+});
+const reveals = document.querySelectorAll(".reveal");
+
+function revealOnScroll() {
+  reveals.forEach(el => {
+    const rect = el.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 80) {
+      el.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+revealOnScroll();
