@@ -2,7 +2,10 @@
    SWEAYUSH – 3 COLOR PREMIUM THEME
    Light Green | Dark Green | Red
 ================================ */
-
+html, body {
+  margin: 0;
+  padding: 0;
+}
 :root {
   --light-green: #EAF4E2;
   --dark-green: #1F5E3B;
